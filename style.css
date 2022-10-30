@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Inter:wght@100;300;400&display=swap');
+html{
+    font-size: 62.5%;
+}
+:root{
+    --grey: #606060;
+    --footcolor:#2429AF;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, h2,li{
+    font-family: 'DM Sans', sans-serif;
+}
+p{
+    font-family: 'Inter';
+    font-size:1.8rem;
+}
+.container{
+    /* display: flex;
+    justify-content: space-between; */
+    padding: 4rem 4.8rem;
+    height: 10rem;
+    margin: 0 auto;
+    max-width: 100rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links{
+    display: flex;
+}
+.nav-item{
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 15px;
+}
+.my-info{
+    color: var(--grey);
+    font-weight: 400;
+    font-size: 19px;
+    margin-top:8.4rem;
+}
+.my-heading{
+    font-size: 6rem;
+}
+.grid {
+    display: grid;
+    gap: 9rem;
+}
+.grid-two-col {
+    grid-template-columns: repeat(2, 1fr);
+}
+.section-hero-data {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.section{
+    margin-top: 10rem;
+}
+.project-section{
+    margin-top: 30rem;
+}
+.section-project-data{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.project-desc-more{
+    font-size: 12px;
+    font-weight: 300;
+}
+.section-project-desc{
+    max-width: 30rem;
+}
+.section-project-desc a{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.hr-line{
+    margin-top:35rem;
+}
+.project-section-2, .project-section-3{
+    margin-top:5rem;
+}
+.foot-style{
+    display: flex;
+    justify-content: space-between;
+}
+.foot-links{
+    display: flex;
+}
+.foot-item{
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-family: 'DM Sans';
+    font-size: 1.2rem;
+}
+.link-style a{
+    color: var(--footcolor);
+    font-family: 'DM Sans';
+    font-size: 1.2rem;
+}
+.nav-item a{
+    text-decoration: none;
+    color:black;
+}
+.about-heading{
+    font-size: 3rem;
+}
+.about-desc{
+    color: var(--grey);
+}
+.sub-container{
+    width: 100%
+}
+.whole-desc{
+    display:flex;
+    justify-content: space-between;
+}
+.desc-section{
+    margin-top: 60rem;
+}
+.section-about-img{
+    height: 40vh;
+}
+.about-line{
+    margin-top: 10rem;
+}
+.contact-desc{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-info{
+    text-decoration: none;
+    list-style: none;
+}
+.conclude{
+    font-size:2rem;
+    max-width:50%;
+}
+.contact-info{
+    font-size:2rem;
+}
+.about-footer{
+    margin-top: 5rem;
+}
